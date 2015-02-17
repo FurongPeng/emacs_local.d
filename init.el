@@ -1,9 +1,7 @@
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
-
+;; base initialization
 (require 'init-utils)
 (require 'init-elpa)
-
-
 
 
 (require 'init-exec-path)
