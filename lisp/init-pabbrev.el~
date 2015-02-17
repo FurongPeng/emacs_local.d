@@ -1,0 +1,6 @@
+
+
+(require 'pabbrev)
+
+
+(provide 'init-pabbrev)
