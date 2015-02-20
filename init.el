@@ -21,8 +21,8 @@
 ;;(require 'init-flymake)
 ;;(require 'init-python-mode)
 
-;; init matlab
-;;(require 'init-matlab)
+;; init octave
+(require 'init-octave)
 
 ;; init latex
 (require 'init-auctex-skim)
