@@ -7,7 +7,7 @@
 
 (require 'init-exec-path)
 (require 'init-ido)
-;;(require 'init-helm); replace helm wiht ido
+(require 'init-helm); replace helm wiht ido
 (require 'init-yasnippet)
 (require 'init-auto-complete)
 (require 'init-tabbar)
@@ -20,6 +20,7 @@
 ;;;;init python
 ;;(require 'init-flymake)
 ;;(require 'init-python-mode)
+
 
 ;; init octave
 (require 'init-octave)

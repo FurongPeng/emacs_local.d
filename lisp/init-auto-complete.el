@@ -9,6 +9,15 @@
 
 ;; if TAB is pressed, first indent current line, then try to complete
 (setq tab-always-indent 'complete)
+;; autocomplete to support the orignal style
+(add-to-list 'completion-styles 'initials t)
+
+(setq-default ac-dwim nil) ; To get pop-ups with docs even if a word is uniquely completed
+
+
+
+
+
 
 ;; prevent auto-complete from automatically expanding
 (setq-default ac-expand-on-auto-complete nil)
